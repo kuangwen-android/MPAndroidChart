@@ -7,12 +7,12 @@ group='com.github.kuangwen-android'
 //apply plugin: 'realm-android'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 23
     buildToolsVersion '25.0.0'
     // resourcePrefix 'mpcht'
     defaultConfig {
         minSdkVersion 9
-        targetSdkVersion 25
+        targetSdkVersion 23
         versionCode 3
         versionName '3.0.2'
     }
