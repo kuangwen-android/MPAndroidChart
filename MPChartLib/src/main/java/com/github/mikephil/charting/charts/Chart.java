@@ -397,7 +397,7 @@ public abstract class Chart<T extends ChartData<? extends IDataSet<? extends Ent
     protected void onDraw(Canvas canvas) {
         // super.onDraw(canvas);
 
-        if (mData == null) {
+        if (mData == null || mData.getEntryCount() == 0) {
 
             boolean hasText = !TextUtils.isEmpty(mNoDataText);
 
